@@ -1,0 +1,195 @@
+
+
+.player-container {
+	background-color: white;
+	font-size: 3VW;
+	background-color: #e91e63
+
+}
+.panel-primary{
+max-height: 100vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.panel-primary>.panel-heading{
+	background-color: #e91e63;
+	border-color: #fff;
+}
+.nav-btn-left{
+    cursor:pointer;
+    width:30%;
+    text-align: left;
+     vertical-align: middle;
+}
+.nav-btn-center{
+    cursor:pointer;
+    width:20%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.nav-btn-next{
+    cursor:pointer;
+    width:10%;
+    text-align: left;
+    vertical-align: middle;
+
+}
+.nav-btn-next-disable{
+    cursor:pointer;
+    width:10%;
+    text-align: left;
+    vertical-align: middle;
+    color:grey;
+
+}
+.nav-btn-prev-disable{
+    cursor:pointer;
+    width:10%;
+    text-align: left;
+    vertical-align: middle;
+    color:grey;
+
+}
+.nav-btn-volume{
+	
+    display: inline-block;
+    cursor:pointer;
+    width:30%;
+    text-align: right;
+    vertical-align: middle;
+
+}
+.nav-btn-play{
+    cursor:pointer;
+    width:15%;
+    text-align: center;
+	font-size: 10vw;
+	vertical-align: middle;
+}
+.nav-vol-btn{
+	vertical-align:middle;
+}
+.nav-btn-right{
+    cursor:pointer;
+    width:10%;
+    text-align: right;
+	vertical-align: middle;
+}
+.nav-btn-right-disable{
+    cursor:pointer;
+    width:10%;
+    text-align: right;
+	vertical-align: middle;
+    color:grey;
+}
+.nav-btn:hover{
+    color: #333
+}
+.nav-btn-disable{
+    color: #bfbfbf;
+    width:18%;
+    text-align: center;
+}
+.player{
+    width:100%
+}
+.track{
+    width:100%;
+    background-color: white;
+    cursor:pointer;
+    color:#333;
+  
+}
+.selected-track{
+    width:100%;
+    background-color: #4CAF50;
+    color:white;
+
+}
+
+.list{
+    max-height: 40vh;
+    overflow-y: auto;
+ 
+}
+.footer{
+   padding-top:3vw;
+  
+    cursor:pointer;
+}	
+.slidecontainer {
+    width: 100%; 
+	padding-top: 3vw;
+	padding-bottom:3vw;/* Width of the outside container */
+}
+.slidecontainer-volume {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 2vw;
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 2px; /* Specified height */
+    background: #ffffff; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 1; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use webkit (Chrome, Opera, Safari, Edge) and moz (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 4vw; /* Set a specific slider handle width */
+    height: 4vw; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+	 border-radius: 50%;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+.delete-btn{
+        color: #333;
+    font-size: 5vw;
+    cursor: pointer;
+    padding-right: 1vw;
+}
+.delete-btn:hover{
+
+   color: #e91e63;
+
+}
+.add-btn{
+        color: #4CAF50;
+    font-size: 5vw;
+    /* height: 30px; */
+    cursor: pointer;
+}
+.add-btn:hover{
+
+   color: #e91e63;
+
+}
+.add-frm{
+display: inline;
+vertical-align: super;
+}
