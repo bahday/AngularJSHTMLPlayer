@@ -1,8 +1,6 @@
 var app = angular.module('myApp', []);
 app.controller("PlayerCtrl", PlayerCtrl);
 
-
-
 function PlayerCtrl($scope) {
 	vm = this;
 	vm.newName = "http://dl.mp3party.net/download/8517238";
